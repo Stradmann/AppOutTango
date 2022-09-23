@@ -1,2 +1,2 @@
 # AppOutTango
-App about TAngo bussines and milonga searching
+App about Tango bussines and milonga searching
