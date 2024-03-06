@@ -1,0 +1,120 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    /**background-image: url(img/bailandoTango.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;**/
+    background-color: #3EB2FD;
+    background-image: linear-gradient(1deg, #e472b1, #f3b8ca 99%);
+    width: 400px;
+    height: 700px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    display: flex;
+    height: 35%;
+    align-items: end;
+    margin-top: 20%;
+    font-size: xx-large;
+    font-weight: 200;
+    font-family: 'Monaco', monospace;
+    color: #3c99fd;
+    text-shadow: 8px 5px 0px #000000ad;
+}
+
+.title h1 {
+    text-align: center;
+    -webkit-text-stroke: 3px black;
+}
+
+.form {
+    display: flex;
+    height: 20%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    height: 15%;
+    width: 70%;
+    margin-bottom: 50px;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #0e2cd0;
+}
+
+.input-user {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+}
+
+.input-pasword {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+}
+
+.forgotpwd {
+    display: flex;
+    height: 10px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.forgotpwd h6 {
+    color:white;
+}
+
+.loginbtn {
+  align-items: center;
+  appearance: none;
+  background-color: #3EB2FD;
+  background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+  background-size: calc(100% + 20px) calc(100% + 20px);
+  border-radius: 100px;
+  border-width: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: CircularStd,sans-serif;
+  font-size: 1rem;
+  height: 30px;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 6px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .2s,background-position .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.loginbtn:active,
+.loginbtn:focus {
+  outline: none;
+}
+
+.loginbtn:hover {
+  background-position: -20px -20px;
+}
+
+.loginbtn:focus:not(:active) {
+  box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+}
