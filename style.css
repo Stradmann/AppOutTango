@@ -197,9 +197,34 @@ a {
   .headerMenu h3 {
     margin-left: 25px;
   }
-
-  .headerMenu i {
+  
+  .burguerContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
     margin-right: 25px;
+    text-align: right;
+    align-items: flex-end;
+    justify-content: flex-start;
+  }
+
+  .burguerContainer ul {
+    list-style: none;
+    padding: 0px;
+  }
+
+  .burguerContainer ul li{
+    height: 30px;
+    padding: 15px;
+    text-align: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #9acef1;
+    color: black;
+  }
+
+  .burguerContainer ul li:hover {
+    background-color: chocolate;
+    border-color: #9acef1;
   }
 
   .searchResult {
@@ -225,7 +250,7 @@ a {
     display: flex;
     flex-direction: row;
     width: 360px;
-    background-color: #9acef1;
+    background-color:#0e2cd0;
     border-radius: 5px;
     margin-top: 5px;
   }
